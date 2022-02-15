@@ -1,0 +1,44 @@
+:root{
+    --gray: #BBBBBB;
+    --yellow: #C78C19;
+    --black: rgb(20, 19, 19);
+    --white: #FFFFFF;
+    --green: #088C19;
+    --extern-font: 'Poppins', sans-serif;    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ 
+    /* quando o usuário estiver com uma tela de até 1080px */
+    @media (max-width: 1080px){
+        /* entao... */
+        font-size: 93.75%;
+    }
+    @media (max-width: 720px){
+        font-size: 87.5%;
+    }
+}
+
+body{
+    /* fontes mais nitidas */
+    -webkit-font-smoothing: antialiased;
+}
+
+
+body, input, textarea, button {
+    font-family: var(--Poppins);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+footer{
+    justify-self: end;
+    padding: 2.25rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    background: url(../../assets/bg.jpg);
+
+    p{
+        color: var(--white);
+        font-family: var(--extern-font);
+        font-weight: 500;
+    }
+}

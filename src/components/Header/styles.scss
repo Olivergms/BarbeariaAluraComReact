@@ -1,0 +1,38 @@
+header{
+    padding: 2.25rem 0;
+    background: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    list-style: none;
+
+
+    li {
+
+        a{
+            text-decoration: none;
+            font-family: var(--extern-font);
+            font-weight: 600;
+            color: var(--black);
+            font-size: 1.5rem;
+
+            &:hover{
+                text-decoration: underline;
+                color: var(--yellow)
+            }
+
+            &:active{
+                color: var(--green);
+            }
+        }
+
+    }
+}
