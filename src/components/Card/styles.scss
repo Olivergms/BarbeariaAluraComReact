@@ -1,0 +1,45 @@
+.card-product{
+    margin: 0 auto;
+    width: 70vw;   
+    padding: 3rem 0; 
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    list-style: none;
+    
+    li{
+        padding: 1.5rem 0;
+        width: 21vw;
+        border: 2px solid var(--black);
+        border-radius: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 0.4rem;
+        
+        &:hover {
+            border-color: var(--yellow); 
+        }
+        &:hover h2 {
+            font-size: 1.8rem;
+        }
+        &:active {
+            border-color:var(--green); 
+        }
+
+        h2, h3{
+            font-size: 1.5rem;            
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+    
+
+}
