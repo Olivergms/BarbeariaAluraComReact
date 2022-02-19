@@ -1,4 +1,5 @@
 import logoImg from '../../assets/logo.png';
+import {Link} from 'react-router-dom';
 
 import './styles.scss'
 
@@ -6,17 +7,17 @@ import './styles.scss'
 export function Header(){
     return(
         <header>
-            <a href="#">
+            <Link to="/">
                 <img src={ logoImg } alt="Logo Barbearia alura" />
-            </a>
+            </Link>
             <nav>
                 <ul className="nav-list">
                     <li>
-                        <a href="#">Início</a>
+                        <Link to="/">Início</Link>
                     </li>
 
                     <li>
-                        <a href="#">Produtos</a>
+                        <Link to="/products">Produtos</Link>
                     </li>
 
                     <li>
